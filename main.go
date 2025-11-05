@@ -5,6 +5,7 @@ import (
 	"sync"
 )
 
+// new_workflow
 func main() {
 	var wg sync.WaitGroup
 	wg.Add(5)
